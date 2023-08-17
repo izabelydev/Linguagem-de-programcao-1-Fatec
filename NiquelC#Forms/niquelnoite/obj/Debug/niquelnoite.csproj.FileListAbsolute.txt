@@ -1,0 +1,10 @@
+C:\Users\labs\Desktop\niquelnoite\niquelnoite\bin\Debug\niquelnoite.exe.config
+C:\Users\labs\Desktop\niquelnoite\niquelnoite\bin\Debug\niquelnoite.exe
+C:\Users\labs\Desktop\niquelnoite\niquelnoite\bin\Debug\niquelnoite.pdb
+C:\Users\labs\Desktop\niquelnoite\niquelnoite\obj\Debug\niquelnoite.csprojAssemblyReference.cache
+C:\Users\labs\Desktop\niquelnoite\niquelnoite\obj\Debug\niquelnoite.Form1.resources
+C:\Users\labs\Desktop\niquelnoite\niquelnoite\obj\Debug\niquelnoite.Properties.Resources.resources
+C:\Users\labs\Desktop\niquelnoite\niquelnoite\obj\Debug\niquelnoite.csproj.GenerateResource.cache
+C:\Users\labs\Desktop\niquelnoite\niquelnoite\obj\Debug\niquelnoite.csproj.CoreCompileInputs.cache
+C:\Users\labs\Desktop\niquelnoite\niquelnoite\obj\Debug\niquelnoite.exe
+C:\Users\labs\Desktop\niquelnoite\niquelnoite\obj\Debug\niquelnoite.pdb
