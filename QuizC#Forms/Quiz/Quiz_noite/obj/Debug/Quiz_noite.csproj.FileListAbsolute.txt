@@ -1,0 +1,10 @@
+C:\Users\labs\Desktop\Quiz_noite\Quiz_noite\bin\Debug\Quiz_noite.exe.config
+C:\Users\labs\Desktop\Quiz_noite\Quiz_noite\bin\Debug\Quiz_noite.exe
+C:\Users\labs\Desktop\Quiz_noite\Quiz_noite\bin\Debug\Quiz_noite.pdb
+C:\Users\labs\Desktop\Quiz_noite\Quiz_noite\obj\Debug\Quiz_noite.csprojAssemblyReference.cache
+C:\Users\labs\Desktop\Quiz_noite\Quiz_noite\obj\Debug\Quiz_noite.Form1.resources
+C:\Users\labs\Desktop\Quiz_noite\Quiz_noite\obj\Debug\Quiz_noite.Properties.Resources.resources
+C:\Users\labs\Desktop\Quiz_noite\Quiz_noite\obj\Debug\Quiz_noite.csproj.GenerateResource.cache
+C:\Users\labs\Desktop\Quiz_noite\Quiz_noite\obj\Debug\Quiz_noite.csproj.CoreCompileInputs.cache
+C:\Users\labs\Desktop\Quiz_noite\Quiz_noite\obj\Debug\Quiz_noite.exe
+C:\Users\labs\Desktop\Quiz_noite\Quiz_noite\obj\Debug\Quiz_noite.pdb

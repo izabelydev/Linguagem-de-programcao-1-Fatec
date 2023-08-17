@@ -1,0 +1,10 @@
+C:\Users\labs\Desktop\aula1803\aula1803\bin\Debug\aula1803.exe.config
+C:\Users\labs\Desktop\aula1803\aula1803\bin\Debug\aula1803.exe
+C:\Users\labs\Desktop\aula1803\aula1803\bin\Debug\aula1803.pdb
+C:\Users\labs\Desktop\aula1803\aula1803\obj\Debug\aula1803.csprojAssemblyReference.cache
+C:\Users\labs\Desktop\aula1803\aula1803\obj\Debug\aula1803.Form1.resources
+C:\Users\labs\Desktop\aula1803\aula1803\obj\Debug\aula1803.Properties.Resources.resources
+C:\Users\labs\Desktop\aula1803\aula1803\obj\Debug\aula1803.csproj.GenerateResource.cache
+C:\Users\labs\Desktop\aula1803\aula1803\obj\Debug\aula1803.csproj.CoreCompileInputs.cache
+C:\Users\labs\Desktop\aula1803\aula1803\obj\Debug\aula1803.exe
+C:\Users\labs\Desktop\aula1803\aula1803\obj\Debug\aula1803.pdb
