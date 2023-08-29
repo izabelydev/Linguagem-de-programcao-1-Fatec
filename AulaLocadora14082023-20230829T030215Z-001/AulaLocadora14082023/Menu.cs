@@ -25,6 +25,12 @@ namespace AulaLocadora14082023
             Application.Exit(); //fecha o programa
         }
 
+        private void CategoriasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CadCategorias cat = new CadCategorias();
+            cat.Show();
+        }
+
         private void Menu_Load(object sender, EventArgs e)
         {
             this.Text = "Olá Sr(a). " + Nome;

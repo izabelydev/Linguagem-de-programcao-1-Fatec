@@ -3,11 +3,8 @@
     "",
     "\\bin",
     "\\bin\\Debug",
-    "\\bin\\Release",
-    "\\obj",
-    "\\obj\\Debug",
     "\\Properties"
   ],
-  "SelectedNode": "\\AulaLocadora14082023.sln",
+  "SelectedNode": "\\CadCategorias.cs",
   "PreviewInSolutionExplorer": false
 }

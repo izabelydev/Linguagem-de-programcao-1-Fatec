@@ -30,6 +30,7 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.cadastroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.categoriasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.clientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.funcionáriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.locaçõesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -45,16 +46,15 @@
             this.clientesToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.consultarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.clienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.veículosToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.locaçõesToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.porCidadeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.porCNHToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.veículosToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.porMarcaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.porCategoriaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.locaçõesToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.porDataRetiradaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.porDataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pageSetupDialog1 = new System.Windows.Forms.PageSetupDialog();
-            this.categoriasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -82,6 +82,15 @@
             this.cadastroToolStripMenuItem.Name = "cadastroToolStripMenuItem";
             this.cadastroToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
             this.cadastroToolStripMenuItem.Text = "&Cadastro";
+            // 
+            // categoriasToolStripMenuItem
+            // 
+            this.categoriasToolStripMenuItem.Image = global::AulaLocadora14082023.Properties.Resources.Solução_4;
+            this.categoriasToolStripMenuItem.Name = "categoriasToolStripMenuItem";
+            this.categoriasToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.T)));
+            this.categoriasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.categoriasToolStripMenuItem.Text = "Categorias";
+            this.categoriasToolStripMenuItem.Click += new System.EventHandler(this.CategoriasToolStripMenuItem_Click);
             // 
             // clientesToolStripMenuItem
             // 
@@ -189,24 +198,6 @@
             this.clienteToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
             this.clienteToolStripMenuItem.Text = "&Clientes";
             // 
-            // veículosToolStripMenuItem2
-            // 
-            this.veículosToolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.porMarcaToolStripMenuItem,
-            this.porCategoriaToolStripMenuItem});
-            this.veículosToolStripMenuItem2.Name = "veículosToolStripMenuItem2";
-            this.veículosToolStripMenuItem2.Size = new System.Drawing.Size(123, 22);
-            this.veículosToolStripMenuItem2.Text = "&Veículos";
-            // 
-            // locaçõesToolStripMenuItem2
-            // 
-            this.locaçõesToolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.porDataRetiradaToolStripMenuItem,
-            this.porDataToolStripMenuItem});
-            this.locaçõesToolStripMenuItem2.Name = "locaçõesToolStripMenuItem2";
-            this.locaçõesToolStripMenuItem2.Size = new System.Drawing.Size(123, 22);
-            this.locaçõesToolStripMenuItem2.Text = "&Locações";
-            // 
             // porCidadeToolStripMenuItem
             // 
             this.porCidadeToolStripMenuItem.Name = "porCidadeToolStripMenuItem";
@@ -218,6 +209,15 @@
             this.porCNHToolStripMenuItem.Name = "porCNHToolStripMenuItem";
             this.porCNHToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.porCNHToolStripMenuItem.Text = "Por CNH";
+            // 
+            // veículosToolStripMenuItem2
+            // 
+            this.veículosToolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.porMarcaToolStripMenuItem,
+            this.porCategoriaToolStripMenuItem});
+            this.veículosToolStripMenuItem2.Name = "veículosToolStripMenuItem2";
+            this.veículosToolStripMenuItem2.Size = new System.Drawing.Size(123, 22);
+            this.veículosToolStripMenuItem2.Text = "&Veículos";
             // 
             // porMarcaToolStripMenuItem
             // 
@@ -231,6 +231,15 @@
             this.porCategoriaToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
             this.porCategoriaToolStripMenuItem.Text = "Por categoria";
             // 
+            // locaçõesToolStripMenuItem2
+            // 
+            this.locaçõesToolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.porDataRetiradaToolStripMenuItem,
+            this.porDataToolStripMenuItem});
+            this.locaçõesToolStripMenuItem2.Name = "locaçõesToolStripMenuItem2";
+            this.locaçõesToolStripMenuItem2.Size = new System.Drawing.Size(123, 22);
+            this.locaçõesToolStripMenuItem2.Text = "&Locações";
+            // 
             // porDataRetiradaToolStripMenuItem
             // 
             this.porDataRetiradaToolStripMenuItem.Name = "porDataRetiradaToolStripMenuItem";
@@ -242,14 +251,6 @@
             this.porDataToolStripMenuItem.Name = "porDataToolStripMenuItem";
             this.porDataToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
             this.porDataToolStripMenuItem.Text = "Por data de devolução";
-            // 
-            // categoriasToolStripMenuItem
-            // 
-            this.categoriasToolStripMenuItem.Image = global::AulaLocadora14082023.Properties.Resources.Solução_4;
-            this.categoriasToolStripMenuItem.Name = "categoriasToolStripMenuItem";
-            this.categoriasToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.T)));
-            this.categoriasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.categoriasToolStripMenuItem.Text = "Categorias";
             // 
             // Menu
             // 
